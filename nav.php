@@ -316,7 +316,7 @@ nav a.active {
            
             </li>
             <li class="nav-item has-dropdown">
-                <a href="#" class="nav-link">
+                <a href="enhancement.php" class="nav-link">
                     <i class="uil uil-file-plus-alt"></i>
                     Enhancement Letter
                 </a>

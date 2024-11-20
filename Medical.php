@@ -103,11 +103,13 @@ nav a.active {
     margin-bottom: 20px;
 }
 
+
 .form-section h2 {
     font-size: 18px;
     font-weight: bold;
-    margin-top: 20px;
     margin-bottom: 15px;
+    margin-top: 50px;   
+
 }
 
 .form-list {
