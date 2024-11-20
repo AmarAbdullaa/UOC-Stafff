@@ -110,9 +110,10 @@ nav a.active {
         .logo {
             padding: 2rem;  
             text-align: center;
-            border-bottom: 1px solid #b6b4b4;
+            border-center: 1px solid #b6b4b4;
             background: linear-gradient(to bottom, rgba(255,255,255,0.1), transparent);
-            wid;
+            width: 100px;
+            height: 100px;
         }
 
         .logo img {
@@ -265,11 +266,11 @@ nav a.active {
                 <div class="dropdown">
                     <a href="Medical.php" class="dropdown-link">Medical</a>
                     <a href="Letter.php" class="dropdown-link">Execuse Letter</a>
-                    <a href="certification.html" class="dropdown-link">Certifications</a>
+                    <a href="certification.php" class="dropdown-link">Certifications</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a href="sportsblog.html" class="nav-link">
+                <a href="sportsblog.php" class="nav-link">
                     <i class="uil uil-basketball"></i>
                     Sports Blog
                 </a>
@@ -277,7 +278,7 @@ nav a.active {
 
 
             <li class="nav-item">
-                <a href="student_profile.html" class="nav-link">
+                <a href="student_profile.php" class="nav-link">
                     <i class="uil uil-building"></i>
                     Profile
                 </a>
@@ -286,14 +287,14 @@ nav a.active {
            
            
             <li class="nav-item">
-                <a href="pool.html" class="nav-link">
+                <a href="pool.php" class="nav-link">
                     <i class="uil uil-user"></i>
                     Pool
                 </a>
             </li>
 
             <li class="nav-item">
-                <a href="equipment.html" class="nav-link">
+                <a href="equipment.php" class="nav-link">
                     <i class="uil uil-user"></i>
                     Equipment
                 </a>
@@ -302,15 +303,15 @@ nav a.active {
            
 
             <li class="nav-item has-dropdown">
-                <a href="pool.html" class="nav-link">
+                <a href="pool.php" class="nav-link">
                     <i class="uil uil-trophy"></i>
                     Gym
                     <i class="arrow"></i>
                 </a>
                 <div class="dropdown">
                     <a href="ped_tournaments.php" class="dropdown-link"></a>
-                    <a href="Request_Gym.html" class="dropdown-link">Requests</a>
-                    <a href="Gym_Request.html" class="dropdown-link">Updates</a>
+                    <a href="Request_Gym.php" class="dropdown-link">Requests</a>
+                    <a href="Gym_Request.php" class="dropdown-link">Updates</a>
                 </div>
            
             </li>

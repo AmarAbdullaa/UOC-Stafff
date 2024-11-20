@@ -62,8 +62,7 @@ body {
 .blog-content {
     flex: 1;
     padding: 20px;
-    margin-top: 120px;
-    margin-left: 210px;
+    margin-left: 220px;
 }
 
 .blog-content h1 {
@@ -204,52 +203,17 @@ nav a.active {
 
     <?php include 'nav.php'; ?>
 
-    <header>
-        <div class="header-container">
-            <div class="logo">
-                <img src="logo.png" alt="PEAK Logo">
-            </div>
-           
-            <nav>
-                <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="ground_reservation.php">Dashboard</a></li>
-                    <li><a href="#" >About</a></li>
-                    <li><a href="#" >Contact</a></li></li>
-                </ul>
-            </nav>
-            <button class="bell-icon">
-                <i class="uil uil-bell"></i>
-            </button>
-
-            
-           
-        </div>
-        
-        <div class="dropdown-menu" id="dropdownMenu">
-            <!-- <ul>
-                <li><a href="#"><i class="uil uil-user"></i> My Profile</a></li>
-                <li><a href="#"><i class="uil uil-signout"></i> Log out</a></li>
-            </ul> -->
-        </div>
-    </header>
+    
    
         <main class="blog-content">
-            <div class="blog-post">
-                <div class="post-info">
-                    <h2>New Gym Equipment</h2>
-                    <p>We got new gym equipment. Come and try it out.</p>
-                    <button>Read more</button>
-                </div>
-                <img src="../gym.jpg" alt="Gym equipment">
-            </div>
+           
             <div class="blog-post">
                 <div class="post-info">
                     <h2>Football</h2>
                     <p>Football Rules Are here</p>
                     <button>Read more</button>
                 </div>
-                <img src="../footall.jpeg" alt="Yoga class">
+                <img src="uoc football.png" alt="Yoga class">
             </div>
             <div class="blog-post">
                 <div class="post-info">
@@ -257,7 +221,7 @@ nav a.active {
                     <p>New swimming pool rules are now in effect. Please review them before your next visit.</p>
                     <button>Read more</button>
                 </div>
-                <img src="../pool.webp" alt="Swimming pool">
+                <img src="uoc swimming.jpg" alt="Swimming pool">
             </div>
             <div class="blog-post">
                 <div class="post-info">
@@ -265,7 +229,7 @@ nav a.active {
                     <p>Registration for our annual basketball tournament is now open. Sign up today!</p>
                     <button>Read more</button>
                 </div>
-                <img src="../basket ball.jpg" alt="Basketball court">
+                <img src="uoc basketball.jpg" alt="Basketball court">
             </div>
         </main>
     </div>

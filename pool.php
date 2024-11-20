@@ -22,7 +22,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
-    padding: 20px 30px;
+    padding:  30px;
+    margin-left: 210px;
   }
   
   h1 {
@@ -125,6 +126,7 @@ body {
 
 </head>
 <body>
+  <?php include"nav.php";?>
   <div class="container">
     <h1>Request a pass</h1>
     <p>Please complete the form and we will get back to you within 48 hours</p>
@@ -150,12 +152,7 @@ body {
       </div>
 
       <div class="form-section">
-        <label>Pass duration</label>
-        <div class="radio-group">
-          <label><input type="radio" name="pass-duration" value="1 day" required> 1 day</label>
-          <label><input type="radio" name="pass-duration" value="1 week"> 1 week</label>
-          <label><input type="radio" name="pass-duration" value="1 month"> 1 month</label>
-        </div>
+        
       </div>
 
       <div class="form-section">

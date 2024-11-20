@@ -138,11 +138,12 @@ nav a.active {
   }
   
   .main-content {
-    margin-left: 210px;
+    margin-left: 220px;
     flex: 1;
     background: white;
     padding: 20px;
     border-radius: 8px;
+    height: 100vh;
   }
   
   .main-content h1 {
@@ -222,27 +223,7 @@ nav a.active {
 <body>
 <?php include 'nav.php'; ?>
 
-  <header>
-    <div class="header-container">
-        <div class="logo">
-            <img src="logo.png" alt="PEAK Logo">
-        </div>
-       
-        <nav>
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="ground_reservation.php">Dashboard</a></li>
-                <li><a href="#" >About</a></li>
-                <li><a href="#" >Contact</a></li></li>
-            </ul>
-        </nav>
-        <button class="bell-icon">
-            <i class="uil uil-bell"></i>
-        </button>
-
-        
-       
-    </div>
+ 
     
     <div class="dropdown-menu" id="dropdownMenu">
         <!-- <ul>
@@ -252,9 +233,7 @@ nav a.active {
     </div>
 </header>
     <main class="main-content">
-      <h1>Excuse Letter</h1>
-      <p class="description">You can submit an excuse letter for an attendance record after the class has ended. You can also download a copy of your attendance record at any time.</p>
-      
+     
       <h2>Excuse letter status</h2>
       <table class="status-table">
         <thead>

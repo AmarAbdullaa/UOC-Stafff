@@ -15,25 +15,14 @@ body {
   
   .container {
     max-width: 100%;
-    margin: 50px auto;
     background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
+    height: 100vh;
+    margin-left: 230px;
   }
   
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #eef1f7;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .header h1 {
-    font-size: 1.5rem;
-    margin: 0;
-  }
+
   
   .user-icon img {
     width: 40px;
@@ -58,8 +47,9 @@ body {
   
   .form-section {
     width: 100%;  
-    margin-top: -40px;
+    margin-top: 40px;
     padding: 20px;
+    height: 100vh;
   }
   
   .form-section h2 {
@@ -118,6 +108,7 @@ body {
   </style>
 </head>
 <body>
+<?php include"nav.php";?>
   <div class="container">
    
     <main>

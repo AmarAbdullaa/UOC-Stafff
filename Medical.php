@@ -16,29 +16,7 @@ body {
     color: #333;
 }
 
-header {
-    background-color:#3E034A;
-    color: white;
-    padding: 15px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-	position: fixed;
-	top:0;
-	left:0;
-	width:100%;
-	z-index: 1000;
-}
 
-.header-container {
-    display: flex;
-	height: 50px;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-	position: relative;
-    gap:20px;
-}
 
 .logo img {
     max-height:70px;
@@ -116,7 +94,7 @@ nav a.active {
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    margin-top: 120px;
+    height: 100vh;
 }
 
 .content h1 {
@@ -170,16 +148,6 @@ nav a.active {
     margin-right: 20px;
 }
 
-.next-btn {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-}
 
     </style>
 </head>
@@ -187,36 +155,7 @@ nav a.active {
 
     <?php include 'nav.php'; ?>
 
-    <header>
-        <div class="header-container">
-            <div class="logo">
-                <img src="logo.png" alt="PEAK Logo">
-            </div>
-           
-            <nav>
-                <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="ground_reservation.php">Dashboard</a></li>
-                    <li><a href="#" >About</a></li>
-                    <li><a href="#" >Contact</a></li></li>
-                </ul>
-            </nav>
-            <button class="bell-icon">
-                <i class="uil uil-bell"></i>
-            </button>
-
-            
-           
-        </div>
-        
-        <div class="dropdown-menu" id="dropdownMenu">
-            <!-- <ul>
-                <li><a href="#"><i class="uil uil-user"></i> My Profile</a></li>
-                <li><a href="#"><i class="uil uil-signout"></i> Log out</a></li>
-            </ul> -->
-        </div>
-    </header>
-    
+   
     
     <main class="content">
         <h1>Fill in and submit medical request forms</h1>

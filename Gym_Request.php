@@ -55,9 +55,8 @@
   .main-content {
     flex: 1;
     background: white;
-    padding: 20px;
     border-radius: 8px;
-    margin-top: 120px;
+    margin-top: 60px;
   }
   
   .main-content h1 {
@@ -213,36 +212,8 @@ nav a.active {
   </style>
 </head>
 <body>
+  <?php include 'nav.php'; ?>
   
-  <header>
-    <div class="header-container">
-        <div class="logo">
-            <img src="../logo.png" alt="PEAK Logo">
-        </div>
-       
-        <nav>
-            <ul>
-                <li><a href="#" class="active">Gym</a></li>
-                <li><a href="ground_reservation.php">Pool Request</a></li>
-                <li><a href="#" >About</a></li>
-                <li><a href="#" >Contact</a></li></li>
-            </ul>
-        </nav>
-        <button class="bell-icon">
-            <i class="uil uil-bell"></i>
-        </button>
-
-        
-       
-    </div>
-    
-    <div class="dropdown-menu" id="dropdownMenu">
-        <!-- <ul>
-            <li><a href="#"><i class="uil uil-user"></i> My Profile</a></li>
-            <li><a href="#"><i class="uil uil-signout"></i> Log out</a></li>
-        </ul> -->
-    </div>
-</header>
     
     <main class="main-content">
       <h1>Gym entry requests</h1>

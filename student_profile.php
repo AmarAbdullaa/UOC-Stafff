@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <style>
         .profile-container {
-    width: 95%;
-    margin: 0 auto;
+    width: 100%;
+    margin-left: ;
+    
     display: grid;
     grid-template-columns: 300px 1fr;
     gap: 2rem;
@@ -182,9 +183,9 @@
     </style>
 </head>
 <body>
-    <div class="main-content">
         
-        
+<?php include 'nav.php'; ?>        
+
         <main>
             
             

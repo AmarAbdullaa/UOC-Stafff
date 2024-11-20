@@ -17,7 +17,9 @@
   }
   
   .container {
-    max-width: 100%;
+    margin-left: 230px;
+    height: 100vh;
+
    
     
   }
@@ -62,6 +64,7 @@
     background: white;
     padding: 20px;
     border-radius: 8px;
+    height: 100vh;
   }
   
   .main-content h1 {
@@ -121,6 +124,7 @@
   </style>
 </head>
 <body>
+  <?php include 'nav.php'; ?>
   <div class="container">
     <main class="main-content">
       <h1>Sports Equipment Request</h1>
