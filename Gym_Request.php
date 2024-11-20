@@ -17,6 +17,7 @@
   }
   
   .container {
+    margin-bottom: 20px;
     display: flex;
     max-width: 100%;
     
@@ -55,8 +56,9 @@
   .main-content {
     flex: 1;
     background: white;
+    padding: 20px;
     border-radius: 8px;
-    margin-top: 60px;
+    margin-top: 50px;
   }
   
   .main-content h1 {
@@ -212,7 +214,6 @@ nav a.active {
   </style>
 </head>
 <body>
-  <?php include 'nav.php'; ?>
   
     
     <main class="main-content">

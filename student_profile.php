@@ -7,10 +7,27 @@
     <link rel="stylesheet" href="ped.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <style>
+
+.actions a 
+{
+    text-decoration: none;
+    color: black;
+}
+.actions button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+  }
+
+  
+
         .profile-container {
-    width: 100%;
-    margin-left: ;
-    
+    width: 95%;
+    margin-left: 220px;
     display: grid;
     grid-template-columns: 300px 1fr;
     gap: 2rem;
@@ -22,6 +39,7 @@
 
 /* Left sidebar styles */
 .profile-left {
+    margin-left: 10px;
     background: #f8f9fa;
     padding: 2rem;
     text-align: center;
@@ -61,6 +79,7 @@
 /* Right content styles */
 .profile-right {
     padding: 2rem;
+    
 }
 
 .info-card {
@@ -184,7 +203,7 @@
 </head>
 <body>
         
-<?php include 'nav.php'; ?>        
+<?php include 'nav.php';?>        
 
         <main>
             
@@ -192,7 +211,7 @@
             <div class="profile-container">
         <div class="profile-left">
             <div class="profile-image">
-                <img src="studenr.png" alt="Student Photo" id="studentPhoto">
+                <img src="logos.png" alt="Student Photo" id="studentPhoto">
             </div>
             <h2 id="studentName">Student Name</h2>
             <div class="basic-info">
@@ -260,253 +279,20 @@
                     <div class="info-item full-width">
                         <label>Achievements:</label>
                         <span id="studentAchievements"></span>
-                    </div>
-                </div>
+                        
+                    
             </div>
-            
-            
             </div>
-            <div class="edit-buttons">
-                <button class="btn btn-edit" id="editButton">
-                    <i class="uil uil-edit"></i> Edit Profile
-                </button>
-                <button class="btn btn-save" id="saveButton" style="display: none;">
-                    <i class="uil uil-save"></i> Save Changes
-                </button>
-                <button class="btn btn-cancel" id="cancelButton" style="display: none;">
-                    <i class="uil uil-times"></i> Cancel
-                </button>
-        </div>
-        
+
     </div>
+                    <div class="actions">
+          <button><a href="form.php">Edit Profile</a></button>
+        </div>
+                </div>
+            
         </main>
-	<script src="navbar.js"></script>
-    <script>
+	
 
 
-const studentData = {
-    photo: "pro_icon.jpg",
-    name: "Ryan ",
-    regNo: "321000001",
-    faculty: "Medicine",
-    regDate: "2023-09-01",
-    expireDate: "2027-09-01",
-    academicYear: "2023",
-    gender: "Male",
-    dateOfBirth: "2000-01-01",
-    nic: "1234567890",
-    email: "john.doe@example.com",
-    contact: "0123456789",
-    address: "123 Student Street, City",
-    sports: "Football, Cricket",
-    achievements: "Cricket SLUG Champions-2024"
-};
-
-// Function to display student data in the profile
-function displayStudentProfile(data) {
-    // Set profile image and name
-    document.getElementById('studentPhoto').src = data.photo;
-    document.getElementById('studentName').textContent = data.name;
-    
-    // Set basic info
-    document.getElementById('studentRegNo').textContent = data.regNo;
-    document.getElementById('studentFaculty').textContent = data.faculty;
-    
-    // Set general information
-    document.getElementById('studentRegDate').textContent = formatDate(data.regDate);
-    document.getElementById('studentExpireDate').textContent = formatDate(data.expireDate);
-    document.getElementById('academicYearDisplay').textContent = data.academicYear;
-    document.getElementById('studentGender').textContent = data.gender;
-    
-    // Set personal information
-    document.getElementById('dobDisplay').textContent = formatDate(data.dateOfBirth);
-    document.getElementById('studentNIC').textContent = data.nic;
-    document.getElementById('studentEmail').textContent = data.email;
-    document.getElementById('studentContact').textContent = data.contact;
-    document.getElementById('studentAddress').textContent = data.address;
-    
-    // Set achievements and activities
-    document.getElementById('studentSports').textContent = data.sports;
-    document.getElementById('studentAchievements').textContent = data.achievements;
-}
-
-// Helper function to format dates nicely
-function formatDate(dateString) {
-    if (!dateString) return '';
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(dateString).toLocaleDateString(undefined, options);
-}
-
-// Function to get student data from form
-function getStudentDataFromForm() {
-    return {
-        photo: document.getElementById('studentPhoto').src,
-        name: document.getElementById('studentName').value,
-        regNo: document.getElementById('studentRegNo').value,
-        faculty: document.getElementById('studentFaculty').value,
-        regDate: document.getElementById('studentRegDate').value,
-        expireDate: document.getElementById('studentExpireDate').value,
-        academicYear: document.getElementById('academicYear').value,
-        gender: document.getElementById('studentGender').value,
-        dateOfBirth: document.getElementById('studentBirthDate').value,
-        nic: document.getElementById('studentNIC').value,
-        email: document.getElementById('studentEmail').value,
-        contact: document.getElementById('studentContact').value,
-        address: document.getElementById('studentAddress').value,
-        sports: document.getElementById('studentSports').value,
-        achievements: document.getElementById('studentAchievements').value
-    };
-}
-
-// Function to update profile from form data
-function updateProfileFromForm() {
-    const formData = getStudentDataFromForm();
-    displayStudentProfile(formData);
-}
-
-// Initialize profile when page loads
-document.addEventListener('DOMContentLoaded', () => {
-    // Display initial data
-    displayStudentProfile(studentData);
-    
-    // If there's a form, add submit event listener
-    const studentForm = document.getElementById('addStudentForm');
-    if (studentForm) {
-        studentForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            updateProfileFromForm();
-            // Close modal if it exists
-            const modal = document.getElementById('addModal');
-            if (modal) {
-                modal.style.display = 'none';
-            }
-        });
-    }
-});
-
-// Function to display student data when clicking view button in table
-function viewStudent(studentData) {
-    displayStudentProfile(studentData);
-}
-
-// Function to fetch student data from backend (example)
-async function fetchStudentData(studentId) {
-    try {
-        // Replace with your actual API endpoint
-        const response = await fetch(`/api/students/${studentId}`);
-        if (!response.ok) throw new Error('Failed to fetch student data');
-        const data = await response.json();
-        displayStudentProfile(data);
-    } catch (error) {
-        console.error('Error fetching student data:', error);
-        alert('Failed to load student data');
-    }
-}
-
-// Function to handle view button click in table
-function onViewButtonClick(studentId) {
-    fetchStudentData(studentId);
-}
-
-// edit
-let isEditing = false;
-        const editButton = document.getElementById('editButton');
-        const saveButton = document.getElementById('saveButton');
-        const cancelButton = document.getElementById('cancelButton');
-
-        // Function to toggle edit mode
-        function toggleEditMode(enable) {
-            isEditing = enable;
-            const container = document.querySelector('.profile-container');
-            
-            if (enable) {
-                container.classList.add('edit-mode');
-                container.classList.remove('view-mode');
-                editButton.style.display = 'none';
-                saveButton.style.display = 'block';
-                cancelButton.style.display = 'block';
-                document.querySelector('.upload-photo').classList.add('show');
-            } else {
-                container.classList.remove('edit-mode');
-                container.classList.add('view-mode');
-                editButton.style.display = 'block';
-                saveButton.style.display = 'none';
-                cancelButton.style.display = 'none';
-                document.querySelector('.upload-photo').classList.remove('show');
-            }
-
-            // Convert spans to input fields
-            document.querySelectorAll('.info-item').forEach(item => {
-                const span = item.querySelector('span');
-                const existingInput = item.querySelector('input, textarea');
-                
-                if (!existingInput) {
-                    const input = document.createElement(
-                        span.id === 'studentAddress' || span.id === 'studentAchievements' 
-                        ? 'textarea' 
-                        : 'input'
-                    );
-                    input.type = 'text';
-                    input.value = span.textContent;
-                    input.dataset.forSpan = span.id;
-                    item.appendChild(input);
-                }
-            });
-        }
-
-        // Function to save changes
-        function saveChanges() {
-            const updatedData = {...studentData};
-            
-            document.querySelectorAll('.info-item input, .info-item textarea').forEach(input => {
-                const spanId = input.dataset.forSpan;
-                const key = spanId.replace('student', '').replace('Display', '');
-                updatedData[key.toLowerCase()] = input.value;
-            });
-
-            // Update the global studentData object
-            Object.assign(studentData, updatedData);
-            
-            // Display updated data
-            displayStudentProfile(studentData);
-            
-            // Exit edit mode
-            toggleEditMode(false);
-        }
-
-        // Function to cancel editing
-        function cancelEdit() {
-            displayStudentProfile(studentData);
-            toggleEditMode(false);
-        }
-
-        // Event listeners for edit buttons
-        editButton.addEventListener('click', () => toggleEditMode(true));
-        saveButton.addEventListener('click', saveChanges);
-        cancelButton.addEventListener('click', cancelEdit);
-
-        // Modify the display function to create input fields
-        function displayStudentProfile(data) {
-            // Existing display logic remains the same
-            document.getElementById('studentPhoto').src = data.photo;
-            document.getElementById('studentName').textContent = data.name;
-            
-            // Update all spans with corresponding data
-            Object.keys(data).forEach(key => {
-                const elementId = 'student' + key.charAt(0).toUpperCase() + key.slice(1);
-                const element = document.getElementById(elementId);
-                if (element) {
-                    element.textContent = key.includes('date') ? formatDate(data[key]) : data[key];
-                }
-            });
-        }
-
-        // Initialize the profile in view mode
-        document.addEventListener('DOMContentLoaded', () => {
-            displayStudentProfile(studentData);
-            toggleEditMode(false);
-        });
-    </script>
-</body>
 </html>
 

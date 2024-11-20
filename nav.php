@@ -319,16 +319,8 @@ nav a.active {
                 <a href="#" class="nav-link">
                     <i class="uil uil-file-plus-alt"></i>
                     Enhancement Letter
-                    <i class="arrow"></i>
                 </a>
-                <div class="dropdown">
-                    <a href="#" class="dropdown-link">Colors night</a>
-                    <a href="#" class="dropdown-link">Medical</a>
-                    <a href="#" class="dropdown-link">Transport</a>
-                    <a href="#" class="dropdown-link">Hostel Facilities</a>
-                </div>
-            </li>
-            
+              
         </ul>
 
        
