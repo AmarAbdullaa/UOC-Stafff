@@ -14,8 +14,10 @@
 }
 
 .img{
-    width: 300px;
+    width: 30px;
     height: 30px;
+    object-fit: cover;
+    
 }
 body {
     font-family: 'Arial', sans-serif;
@@ -183,6 +185,7 @@ nav a.active {
 
 .main-content img {
     width: 100%;
+    height: 50%;
     height: auto;
     border-radius: 8px;
 	display: block;

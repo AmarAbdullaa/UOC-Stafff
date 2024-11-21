@@ -30,9 +30,10 @@
       text-align: center;
       border-radius: 5px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      width: 250px;
-      height: 150px;
+      width: 350px;
+      height: 200px;
       border-radius: 20px;
+      margin-left: 200px;
 
     }
 
@@ -54,11 +55,14 @@
   </style>
 </head>
 <body>
-<div class="container">
+<?php
+include 'nav.php'; // This includes the header.php file
+?><div class="container">
   <div class="container1">
-    <!-- box1 -->
+    <!-- UCSC -->
     <div class="box1">
-      <img src="ucscc.png" alt="">
+    <a href="UCSC_Enhancemrnt.pdf" Download><img src="ucscc.png" alt=""></a>
+      
         
     </div>
 
@@ -67,9 +71,11 @@
 
 
 <div class="container2">
-    <!-- box4 -->
+    <!-- Science -->
     <div class="box2">
-      <img src="fos.png" alt="">
+    <a href="UCSC_Enhancement.pdf" Download>
+    <img src="fos.png" alt=""></a>
+      
     </div>
    
 </div>

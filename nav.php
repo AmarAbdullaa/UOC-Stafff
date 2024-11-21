@@ -248,6 +248,7 @@ nav a.active {
     </style>
 </head>
 <body>
+    <?php include 'notice.php'; ?>
 
    
     <div class="sidebar">
@@ -311,15 +312,15 @@ nav a.active {
                 <div class="dropdown">
                     <a href="ped_tournaments.php" class="dropdown-link"></a>
                     <a href="Request_Gym.php" class="dropdown-link">Requests</a>
-                    <a href="Gym_Request.php" class="dropdown-link">Updates</a>
                 </div>
            
             </li>
-            <li class="nav-item has-dropdown">
-                <a href="enhancement.php" class="nav-link">
-                    <i class="uil uil-file-plus-alt"></i>
+            <li class="nav-item">
+                <a href="enhancementt.php" class="nav-link">
+                    <i class="uil uil-user"></i>
                     Enhancement Letter
                 </a>
+            </li>   
               
         </ul>
 

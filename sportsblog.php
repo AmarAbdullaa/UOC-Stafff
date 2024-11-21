@@ -19,6 +19,20 @@ body {
     color: #333;
 }
 
+.btn a 
+{
+    text-decoration: none;
+    color: blue;
+}
+.btn{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: blue;
+}
+
 .container {
     display: flex;
 }
@@ -74,10 +88,11 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    background-color: #ffffff;
+    background-color: lightgreen;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
 
 .post-info {
@@ -211,7 +226,7 @@ nav a.active {
                 <div class="post-info">
                     <h2>Football</h2>
                     <p>Football Rules Are here</p>
-                    <button><a href="football.php">Read more</a></button>
+                    <button class="btn"><a href="football.php">Read more</a></button>
                 </div>
                 <img src="uoc football.png" alt="Yoga class">
             </div>
@@ -219,7 +234,7 @@ nav a.active {
                 <div class="post-info">
                     <h2>New Swimming Pool Rules</h2>
                     <p>New swimming pool rules are now in effect. Please review them before your next visit.</p>
-                    <button><a href="swimming.php">Read more</a></button>
+                    <button class="btn"><a href="swimming.php">Read more</a></button>
                 </div>
                 <img src="uoc swimming.jpg" alt="Swimming pool">
             </div>
@@ -227,7 +242,7 @@ nav a.active {
                 <div class="post-info">
                     <h2>Basketball Tournament Registration</h2>
                     <p>Registration for our annual basketball tournament is now open. Sign up today!</p>
-                    <button><a href="basketball.php">Read more</a></button>
+                    <button class="btn"><a href="basketball.php">Read more</a></button>
                 </div>
                 <img src="uoc basketball.jpg" alt="Basketball court">
             </div>
