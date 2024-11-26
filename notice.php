@@ -20,8 +20,8 @@ h1, h2 {
 
 /* Hero Section */
 .hero {
-    background: url('sports.jpeg') no-repeat center center/cover;
-    color: black;
+    background: url('sport_front.png') no-repeat center center/cover;
+    color: white;
     text-align: center;
     padding: 80px 20px;
     margin-left: 210px;
@@ -43,7 +43,7 @@ h1, h2 {
 }
 
 .cta-btn {
-    background-color: #0078D7;
+    background-color:  #301934;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -53,7 +53,7 @@ h1, h2 {
 }
 
 .cta-btn:hover {
-    background-color: #005bb5;
+    background-color: #CBC3E3;
 }
 
 /* Features Section */
@@ -145,26 +145,30 @@ h1, h2 {
     </style>
 </head>
 <body>
+
+<?php 
+include 'nav.php';
+?>
+
     <!-- Hero Section -->
     <header class="hero">
         <div class="hero-content">
-            <h1>Manage your sports program</h1>
-            <p>The most powerful sports management system for schools, clubs, and colleges. From scheduling and communication to player registration, payments, and more.</p>
+            <h1>Welocme to PEAK</h1>
             <button class="cta-btn">Get Started</button>
         </div>
     </header>
 
     <!-- Features Section -->
     <section class="features">
-        <h2>Sports Management Software</h2>
+        <h2>Notices</h2>
         <div class="feature-cards">
             <div class="feature-card">
-                <img src="sports.jpeg" alt="Team Management Icon">
+                <img src="badminton.jpeg" alt="Team Management Icon">
                 <h3>Team Management</h3>
                 <p>Easily manage teams, track attendance, and communicate with parents and athletes.</p>
             </div>
             <div class="feature-card">
-                <img src="https://via.placeholder.com/50" alt="Mobile App Icon">
+                <img src="athletics.jpg" alt="Mobile App Icon">
                 <h3>Mobile App</h3>
                 <p>Athletes and parents can view team rosters, schedules, and results from their mobile devices.</p>
             </div>

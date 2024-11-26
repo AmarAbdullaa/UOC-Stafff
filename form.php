@@ -58,21 +58,15 @@
         }
 
         button[type="submit"] {
-            background-color: #4CAF50; /* Green for submit */
+            background-color: #6A0DAD; /* Green for submit */
             color: white;
         }
 
-        button[type="submit"]:hover {
-            background-color: #45a049;
-        }
+       
 
         .delete {
-            background-color: #ff4d4d; /* Bright red for delete action */
+            background-color: #D3A6FF; /* Bright red for delete action */
             color: white; /* White text for contrast */
-        }
-
-        .delete:hover {
-            background-color: #cc0000; /* Darker red for hover */
         }
 
         .delete:focus,

@@ -39,7 +39,7 @@
 
 /* Left sidebar styles */
 .profile-left {
-    margin-left: 10px;
+
     background: #f8f9fa;
     padding: 2rem;
     text-align: center;
@@ -83,7 +83,7 @@
 }
 
 .info-card {
-    background: #fff;
+    background: #D3A6FF;
     border-radius: 10px;
     padding: 1.5rem;
     margin-bottom: 1.5rem;

@@ -250,6 +250,7 @@ nav a.active {
 </head>
 <body>
 
+
    
     <div class="sidebar">
         <div class="logo">
@@ -266,7 +267,7 @@ nav a.active {
         <!-- DashBoard -->
            <!-- profile -->
         <li class="nav-item">
-                <a href="student_profile.ph" class="nav-link">
+                <a href="notices.php" class="nav-link">
                     <i class="uil uil-building"></i>
                     Dashboard
                 </a>
