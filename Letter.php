@@ -196,7 +196,7 @@ nav a.active {
   .submit-button {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #1d4ed8;
+    background-color: #9B59B6;
     color: white;
     border: none;
     border-radius: 4px;

@@ -126,7 +126,7 @@ nav a.active {
     font-size: 16px;
 }
 .form-list button , .next-btn{
-    background-color: #007bff;
+    background-color: #9B59B6;
     color: white;
     border: none;
     padding: 5px 15px;

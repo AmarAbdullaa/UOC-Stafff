@@ -116,8 +116,8 @@ body {
 
 .request-btn,
 .view-btn {
-    background-color: #e3e4e6;
-    color: #333;
+    background-color: #9B59B6;
+    color: white;
     border: none;
     padding: 5px 15px;
     border-radius: 5px;
@@ -127,7 +127,7 @@ body {
 }
 
 .request-btn {
-    background-color: #f1f1f5;
+    background-color:  #D3A6FF;;
 }
 
 .view-btn {

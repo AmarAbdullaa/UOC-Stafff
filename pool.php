@@ -29,6 +29,7 @@ body {
   h1 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #6A0DAD;
   }
   
   p {
@@ -65,6 +66,7 @@ body {
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
+    color: #6A0DAD;
   }
   
   .time-slots button {
@@ -109,7 +111,7 @@ body {
   }
   
   .submit-btn {
-    background-color: #007bff;
+    background-color: #9B59B6;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -118,9 +120,7 @@ body {
     font-size: 16px;
   }
   
-  .submit-btn:hover {
-    background-color: #0056b3;
-  }
+  
   
   </style>
 

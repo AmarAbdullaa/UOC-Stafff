@@ -71,12 +71,14 @@
   .main-content h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    color:#6A0DAD;
   }
   
   .form label {
     display: block;
     font-weight: bold;
     margin: 10px 0 5px;
+    color:#6A0DAD;
   }
   
   .form select,
@@ -93,7 +95,7 @@
   .form button {
     width: 100%;
     padding: 12px;
-    background-color: #1d4ed8;
+    background-color:  #6A0DAD;
     color: white;
     border: none;
     border-radius: 4px;
@@ -102,7 +104,7 @@
   }
   
   .form button:hover {
-    background-color: #2563eb;
+    background-color: #D3A6FF;
   }
   
   .footer {
