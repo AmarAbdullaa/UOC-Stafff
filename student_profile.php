@@ -11,7 +11,7 @@
 .actions a 
 {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .actions button {
     padding: 10px 15px;
@@ -19,7 +19,7 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
-    background-color: #007bff;
+    background-color: #9B59B6;
     color: white;
   }
 

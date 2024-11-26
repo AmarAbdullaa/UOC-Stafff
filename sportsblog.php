@@ -22,7 +22,7 @@ body {
 .btn a 
 {
     text-decoration: none;
-    color: blue;
+    color: white;
 }
 .btn{
     padding: 10px 15px;
@@ -30,7 +30,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
-    background-color: blue;
+    background-color: #9B59B6;
 }
 
 .container {
@@ -103,7 +103,7 @@ body {
 .post-info h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
-    color: #333;
+    color: #9B59B6;
 }
 
 .post-info p {
@@ -114,7 +114,7 @@ body {
 .post-info button {
     padding: 10px 15px;
     border: none;
-    background-color: #d0d6db;
+    background-color: #9B59B6;
     color: #333;
     border-radius: 5px;
     cursor: pointer;

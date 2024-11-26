@@ -257,7 +257,80 @@ nav a.active {
                 <img src="logo.png" alt="Logo">
             </a>
         </div>
+        
+        
         <ul class="nav-list">
+
+
+
+        <!-- DashBoard -->
+           <!-- profile -->
+        <li class="nav-item">
+                <a href="student_profile.ph" class="nav-link">
+                    <i class="uil uil-building"></i>
+                    Dashboard
+                </a>
+            </li>
+
+
+        <!-- profile -->
+        <li class="nav-item">
+                <a href="student_profile.php" class="nav-link">
+                    <i class="uil uil-building"></i>
+                    Profile
+                </a>
+            </li>
+
+            <!-- sportsblog -->
+            <li class="nav-item">
+                <a href="sportsblog.php" class="nav-link">
+                    <i class="uil uil-basketball"></i>
+                    Sports Blog
+                </a>
+            </li>
+
+
+            <!-- eqipment-->
+            <li class="nav-item">
+                <a href="equipment.php" class="nav-link">
+                    <i class="uil uil-user"></i>
+                    Equipment
+                </a>
+            </li>
+
+
+              <!-- pool  -->
+            <li class="nav-item">
+                <a href="pool.php" class="nav-link">
+                    <i class="uil uil-user"></i>
+                    Pool
+                </a>
+            </li>
+
+            <!-- Gym  -->
+            <li class="nav-item has-dropdown">
+                <a href="pool.php" class="nav-link">
+                    <i class="uil uil-trophy"></i>
+                    Gym
+                    <i class="arrow"></i>
+                </a>
+                <div class="dropdown">
+                    <a href="ped_tournaments.php" class="dropdown-link"></a>
+                    <a href="Request_Gym.php" class="dropdown-link">Requests</a>
+                </div></li>
+
+            <!-- Enhancement Letter -->
+            <li class="nav-item">
+                <a href="enhancementt.php" class="nav-link">
+                    <i class="uil uil-user"></i>
+                    Enhancement Letter
+                </a>
+            </li>  
+
+
+
+            
+
             <li class="nav-item has-dropdown">
                 <a href="#" class="nav-link">
                     <i class="uil uil-calendar-alt"></i>
@@ -270,57 +343,18 @@ nav a.active {
                     <a href="certification.php" class="dropdown-link">Certifications</a>
                 </div>
             </li>
-            <li class="nav-item">
-                <a href="sportsblog.php" class="nav-link">
-                    <i class="uil uil-basketball"></i>
-                    Sports Blog
-                </a>
-            </li>
+           
 
-
-            <li class="nav-item">
-                <a href="student_profile.php" class="nav-link">
-                    <i class="uil uil-building"></i>
-                    Profile
-                </a>
-            </li>
+            
             
            
-           
-            <li class="nav-item">
-                <a href="pool.php" class="nav-link">
-                    <i class="uil uil-user"></i>
-                    Pool
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="equipment.php" class="nav-link">
-                    <i class="uil uil-user"></i>
-                    Equipment
-                </a>
-            </li>
+         
 
            
 
-            <li class="nav-item has-dropdown">
-                <a href="pool.php" class="nav-link">
-                    <i class="uil uil-trophy"></i>
-                    Gym
-                    <i class="arrow"></i>
-                </a>
-                <div class="dropdown">
-                    <a href="ped_tournaments.php" class="dropdown-link"></a>
-                    <a href="Request_Gym.php" class="dropdown-link">Requests</a>
-                </div>
            
-            </li>
-            <li class="nav-item">
-                <a href="enhancementt.php" class="nav-link">
-                    <i class="uil uil-user"></i>
-                    Enhancement Letter
-                </a>
-            </li>   
+           
+            
               
         </ul>
 

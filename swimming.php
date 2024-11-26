@@ -368,6 +368,7 @@ nav a.active {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
   cursor: pointer;
+  image-fit: cover;
 }
 .tile2 p {
   font-size: 16px;
@@ -406,19 +407,19 @@ nav a.active {
 
 
             
-				<img src="wsdwd.png" alt="cap-men">
+				<img src="Swimming_menscaptain.png" alt="cap-men">
 				<p>Men's Captain</p>
 				</div>
 				<div class="tile2">
-				<img src="wsdwd.png" alt="cap-women">
+				<img src="Swimming_womenscaptain.png" alt="cap-women">
 					<p>Women's Captain</p>
 				</div>
 				<div class="tile2">
-				<img src="wsdwd.png" alt="vc-men">
+				<img src="Swimming_mensvicecaptain.png" alt="vc-men">
 					<p>Men's ViceCaptain</p>
 				</div>
 				<div class="tile2">
-				<img src="wsdwd.png" alt="vc-women">
+				<img src="Swimming_womensvicecaptain.png" alt="vc-women">
 					<p>Women's viceCaptain</p>
 				</div>
 			</article>

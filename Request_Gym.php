@@ -84,7 +84,7 @@ body {
     border-radius: 5px;
     font-size: 1rem;
     color: #333;
-    background-color: #c2dbf6;
+    background-color: white;
   }
   
   .request-form input:focus,
@@ -94,7 +94,7 @@ body {
   }
   
   .submit-button {
-    background-color: #007bff;
+    background-color: #9B59B6;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -104,7 +104,9 @@ body {
   }
   
   .submit-button:hover {
-    background-color: #005
+    background-color: #9B59B6;
+
+  }
   
   </style>
 </head>
