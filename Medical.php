@@ -92,7 +92,7 @@ nav a.active {
     max-width: 100%;
     
     padding: 20px;
-    background-color: #fff;
+    background-color: #D8BFD8;
     border-radius: 8px;
     height: 100vh;
 }

@@ -15,7 +15,8 @@ body {
   
   .container {
     max-width: 100%;
-    background-color: #fff;
+    background-color:  #D8BFD8;
+
     border-radius: 10px;
     overflow: hidden;
     height: 100vh;

@@ -65,6 +65,7 @@
     padding: 20px;
     border-radius: 8px;
     height: 100vh;
+    background-color: #D8BFD8;
   }
   
   .main-content h1 {

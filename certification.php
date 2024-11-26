@@ -13,7 +13,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #D8BFD8;
     color: #333;
 }
 
@@ -64,6 +64,7 @@ body {
     flex: 1;
     padding: 40px;
     margin-left: 210px;
+    
 }
 
 .main-content h1 {
@@ -74,6 +75,7 @@ body {
 
 .section {
     margin-bottom: 30px;
+    
 }
 
 .section h2 {

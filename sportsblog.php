@@ -77,6 +77,7 @@ body {
     flex: 1;
     padding: 20px;
     margin-left: 220px;
+    background-color: #D8BFD8;
 }
 
 .blog-content h1 {
@@ -88,7 +89,7 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    background-color: lightgreen;
+    background-color: lightpurple;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

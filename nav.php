@@ -74,13 +74,13 @@ nav a.active {
 }
 
         body {
-            background-color: #f4f4f4;
+            background-color: #D8BFD8   ;
         }
 
         .sidebar {
             height: 100vh;
             width: 18%;  
-            background-color: #cecdce;
+            background-color: #340335;  
             position: fixed;
             left: 0;
             top: 0;
@@ -117,7 +117,7 @@ nav a.active {
         }
 
         .logo img {
-            width: 11rem;  
+            width: 08rem;  
             margin: 0;
             transition: transform 0.3s ease;
         }
@@ -129,6 +129,7 @@ nav a.active {
         .nav-list {
             list-style: none;
             padding: 1.0rem;
+            color: white;
         }
 
         .nav-item {
@@ -141,7 +142,7 @@ nav a.active {
             align-items: center;
             padding: 10px;
             text-decoration: none;
-            color: #333;
+            color: white;
             font-size: 14px;
             border-radius: 6px;
             transition: all 0.3s ease;
@@ -209,7 +210,7 @@ nav a.active {
             display: block;
             padding: 8px 12px;
             text-decoration: none;
-            color: #333;
+            color: white;
             font-size: 13px;
             transition: all 0.3s ease;
             position: relative;
@@ -234,7 +235,7 @@ nav a.active {
 
         .dropdown-link:hover {
             transform: translateX(5px);
-            color: #000;
+            color: #white;
         }
 
         /* Active state */
@@ -248,7 +249,6 @@ nav a.active {
     </style>
 </head>
 <body>
-    <?php include 'notice.php'; ?>
 
    
     <div class="sidebar">

@@ -15,11 +15,17 @@
       background-color: #f4f4f4;
     }
 
+    container{
+      background-color:  #D8BFD8;
+      ;
+    }
+
     .container1, .container2 {
       display: flex;
       flex-direction: row;
       gap: 50px; /* space between boxes */
       margin: 70px;
+      
     }
     
 
